@@ -7,3 +7,5 @@ if '7' in str(num):
     print('Buzz')
 elif num% 7==0:
     print('Buzz')
+else:
+    print(num)

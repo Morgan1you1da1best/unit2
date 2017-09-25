@@ -21,6 +21,6 @@ else:
 answer = float(input('Product of your two numbers: '))
 if answer == num1*num2:
     print('Correct')
-if answer != num1*num2:
+elif answer != num1*num2:
     print('Incorrect')
     
